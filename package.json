@@ -1,0 +1,22 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/Markoricci/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Markoricci/frontend-project-46/actions)",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "code": "bin/gendiff.js",
+    "test": "jest --colors"
+  },
+  "scripts": {
+    "test": "npx jest"
+  },
+  "author": "Mark",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0"
+  }
+}
